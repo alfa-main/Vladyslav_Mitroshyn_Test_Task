@@ -43,6 +43,10 @@ module.exports = {
         darkBlue: "#03252B",
         pinkRed: "#43082F",
         blue: "#123156",
+        blackTransparent: "rgba(0, 0, 0, 0.1)",
+      },
+      boxShadow: {
+        dark: "0 0 0 1px rgba(0, 0, 0, 0.1)",
       },
     },
   },
