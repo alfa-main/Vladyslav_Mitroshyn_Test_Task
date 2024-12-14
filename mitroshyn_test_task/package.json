@@ -2,6 +2,7 @@
   "name": "mitroshyn_test_task",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://alfa-main.github.io/Vladyslav_Mitroshyn_Test_Task",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "clsx": "^2.1.1",
@@ -18,7 +19,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -54,6 +57,7 @@
     "@types/react-dom": "^19.0.2",
     "autoprefixer": "^10.4.20",
     "eslint-plugin-storybook": "^0.11.1",
+    "gh-pages": "^6.2.0",
     "postcss": "^8.4.49",
     "prop-types": "^15.8.1",
     "storybook": "^8.4.7",
