@@ -9,12 +9,14 @@ type ButtonProps = {
   onClick?: () => void;
   children: React.ReactNode;
   className?: string;
+  isFluid?: boolean;
 };
 
 const Button: React.FC<ButtonProps> = ({
   type = 'button',
   variant = 'primary',
   size = 'medium',
+  isFluid = false,
   isDisabled = false,
   onClick,
   children,
@@ -25,15 +27,16 @@ const Button: React.FC<ButtonProps> = ({
     primary: 'bg-green text-white hover:bg-darkGreen disabled:bg-darkGreen',
   };
   const sizeClasses = {
-    small: 'px-2 h-[40px] body-lg',
-    medium: 'px-4 h-[64px] body-lg-bold',
-    large: 'px-6 h-[70px] body-lg',
+    small: 'px-2 h-[40px] body-sm',
+    medium: 'px-4 h-[64px] body-sm-bold',
+    large: 'px-6 h-[70px] body-sm',
   };
 
   const buttonClasses = clsx(
     baseClasses,
     variantClasses[variant],
     sizeClasses[size],
+    isFluid && 'w-full',
     isDisabled && 'cursor-not-allowed',
     className
   );
