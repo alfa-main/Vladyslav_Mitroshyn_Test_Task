@@ -3,6 +3,13 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      screens: {
+        xs: { min: "320px" },
+        sm: { min: "743px" },
+        md: { min: "744px" },
+        lg: { min: "1200px" },
+        xl: { min: "1440px" },
+      },
       spacing: {
         "safe-bottom": "env(safe-area-inset-bottom)",
         "2-px": "2px",
@@ -28,6 +35,7 @@ module.exports = {
         black: "#000000",
         green: "#009129",
         darkGreen: "#056A21",
+        white: "#ffffff",
       },
     },
   },

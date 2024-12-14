@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* Body text styles */
+  .body-lg {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .body-lg-bold {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+  }
+
+  .body-md {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .body-sm {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .body-xs {
+    font-size: 12px;
+    line-height: 22px;
+  }
+}
