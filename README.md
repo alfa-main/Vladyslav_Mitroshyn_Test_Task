@@ -1,21 +1,33 @@
-Mitroshyn Test Task
-This project is a test task showcasing implementation of a React-based web application using modern design patterns and tools. The project incorporates Mobile-First development, Atomic Design, and leverages tools like TailwindCSS, Storybook, and TypeScript for a scalable and efficient workflow.
+# Mitroshyn Test Task
 
-Features
-Mobile-First Approach.
-Atomic Design Methodology.
-Storybook Integration.
-TailwindCSS.
-TypeScript.
+This project is a test task showcasing the implementation of a React-based web application using modern design patterns and tools. The project incorporates **Mobile-First** development, **Atomic Design**, and leverages tools like **TailwindCSS**, **Storybook**, and **TypeScript** for a scalable and efficient workflow.
 
-Make sure you have the following installed on your machine:
+---
 
-Node.js (>=16.x)
-Yarn or npm package manager
+## Features
 
-Folder Structure
-The project follows an Atomic Design methodology, with components organized into the following hierarchy:
+- **Mobile-First Approach**: Designed for smaller screens first, ensuring a seamless responsive experience across all devices.
+- **Atomic Design Methodology**: Organized components into Atoms, Molecules, and Organisms for maintainability and reusability.
+- **Storybook Integration**: Allows for isolated component development and documentation.
+- **TailwindCSS**: Utility-first CSS framework used for consistent styling and rapid prototyping.
+- **TypeScript**: Adds type safety and improves developer experience.
 
-Atoms: Small, reusable elements (e.g., buttons, text inputs).
-Molecules: Combinations of atoms (e.g., forms, cards).
-Organisms: More complex components made from molecules and atoms (e.g., headers, sections).
+---
+
+## Prerequisites
+
+Ensure you have the following installed on your machine:
+
+- **Node.js** (>=16.x)
+- **Yarn** or **npm** package manager
+- **Git**
+
+---
+
+## Installation and Setup
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-repository/mitroshyn_test_task.git
+cd mitroshyn_test_task
