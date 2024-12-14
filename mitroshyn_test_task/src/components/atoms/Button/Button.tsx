@@ -22,7 +22,7 @@ const Button: React.FC<ButtonProps> = ({
   children,
   className,
 }) => {
-  const baseClasses = 'rounded-lg font-semibold focus:outline-none transition ease-in-out duration-300';
+  const baseClasses = 'rounded-lg font-semibold focus:outline-none transition ease-in-out duration-300 px-[40px]';
   const variantClasses = {
     primary: 'bg-green text-white hover:bg-darkGreen disabled:bg-darkGreen',
   };
