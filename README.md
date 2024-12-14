@@ -34,5 +34,8 @@ cd mitroshyn_test_task
 yarn install
 yarn start
 
+## How to deploy
+yarn deploy
+
 ## How to Run the Storybook
 yarn storybook
