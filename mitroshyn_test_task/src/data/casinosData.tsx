@@ -1,3 +1,5 @@
+import { getAssetPath } from "../utils/getAssetPath";
+
 export interface CasinosData {
   title: string;
   betAmount: number;
@@ -12,20 +14,20 @@ export const MOCK_CASINOS_DATA: CasinosData[] = [
     betAmount: 10,
     getAmount: 400,
     starsAmount: 5,
-    logoUrl: "/images/logos/grosvenor_logo.svg",
+    logoUrl: getAssetPath("/images/logos/grosvenor_logo.svg"),
   },
   {
     title: "Happy Spins",
     betAmount: 10,
     getAmount: 400,
     starsAmount: 4,
-    logoUrl: "/images/logos/happy_spins_logo.svg",
+    logoUrl: getAssetPath("/images/logos/happy_spins_logo.svg"),
   },
   {
     title: "Hajper",
     betAmount: 10,
     getAmount: 400,
     starsAmount: 3,
-    logoUrl: "/images/logos/hajper_logo.svg",
+    logoUrl: getAssetPath("/images/logos/hajper_logo.svg"),
   },
 ];

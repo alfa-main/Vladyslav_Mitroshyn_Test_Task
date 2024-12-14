@@ -8,11 +8,11 @@ function App() {
     <Container>
       <div className="flex flex-col gap-12-px">
         <div className="body-md font-semibold text-gray">Best Casinos 2024</div>
-      <div className="flex flex-col gap-12-px">
-        {MOCK_CASINOS_DATA.map((item) => (
-          <CasinoCard data={item} />
-        ))}
-      </div>
+        <div className="flex flex-col gap-12-px">
+          {MOCK_CASINOS_DATA.map((item) => (
+            <CasinoCard data={item} key={item.title} />
+          ))}
+        </div>
       </div>
     </Container>
   );
