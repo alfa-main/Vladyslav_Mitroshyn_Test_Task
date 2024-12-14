@@ -10,6 +10,9 @@ module.exports = {
         lg: { min: "1200px" },
         xl: { min: "1440px" },
       },
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"],
+      },
       spacing: {
         "safe-bottom": "env(safe-area-inset-bottom)",
         "2-px": "2px",
@@ -36,6 +39,10 @@ module.exports = {
         green: "#009129",
         darkGreen: "#056A21",
         white: "#ffffff",
+        gray: "#939393",
+        darkBlue: "#03252B",
+        pinkRed: "#43082F",
+        blue: "#123156",
       },
     },
   },
