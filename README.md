@@ -31,3 +31,16 @@ Ensure you have the following installed on your machine:
 ```bash
 git clone https://github.com/your-repository/mitroshyn_test_task.git
 cd mitroshyn_test_task
+
+## How to Run the Application
+
+To run the application locally, follow these steps:
+
+ ```bash
+   git clone https://github.com/your-repository/mitroshyn_test_task.git
+   cd mitroshyn_test_task
+yarn install
+yarn start
+
+## How to Run the Storybook
+yarn storybook
