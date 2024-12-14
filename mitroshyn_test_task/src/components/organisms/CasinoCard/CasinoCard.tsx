@@ -2,6 +2,7 @@ import { FC, useCallback } from "react";
 import { CasinosData } from "../../../data/casinosData";
 import Button from "../../atoms/Button/Button";
 import { getCardBackgroundClass } from "../../../utils/getCardBackground";
+import { getAssetPath } from "../../../utils/getAssetPath";
 
 interface CasinoCardProps {
   data: CasinosData;
@@ -44,14 +45,14 @@ export const CasinoCard: FC<CasinoCardProps> = ({ data }) => {
               {Array.from({ length: starsAmount }, (_, i) => (
                 <img
                   key={`full-${i}`}
-                  src="/icons/ui/full_star.svg"
+                  src={getAssetPath("/icons/ui/full_star.svg")}
                   alt="Full Star"
                 />
               ))}
               {Array.from({ length: 5 - starsAmount }, (_, i) => (
                 <img
                   key={`empty-${i}`}
-                  src="/icons/ui/empty_star.svg"
+                  src={getAssetPath("/icons/ui/empty_star.svg")}
                   alt="Empty Star"
                 />
               ))}
